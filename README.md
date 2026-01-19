@@ -31,8 +31,10 @@ Detailed docs:
 - `docs/HLD.md`
 - `docs/LLD.md`
 - `docs/PROJECT_REPORT.md`
+- `docs/MODULE_OVERVIEW.md`
 - `docs/USER_GUIDE.md`
 - `docs/DEVELOPER_GUIDE.md`
+- `docs/DIAGRAMS.md`
 - `docs/DEPLOYMENT.md`
 
 ## Quick start (local)
