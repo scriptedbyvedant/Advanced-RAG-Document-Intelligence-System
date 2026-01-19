@@ -91,6 +91,35 @@ tests/                Test suite
 utils/                File and model utilities
 ```
 
+## Tools and technologies
+
+Badges below are visual references and link to official sources.
+
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Framework-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI-121212?logo=uvicorn&logoColor=white)](https://www.uvicorn.org/)
+[![LangChain](https://img.shields.io/badge/LangChain-Framework-1C3C3C?logo=langchain&logoColor=white)](https://www.langchain.com/)
+[![FAISS](https://img.shields.io/badge/FAISS-Vector%20Store-0047AB?logo=meta&logoColor=white)](https://github.com/facebookresearch/faiss)
+[![PyMuPDF](https://img.shields.io/badge/PyMuPDF-Text%20Extraction-2C2C2C?logo=adobe&logoColor=white)](https://pymupdf.readthedocs.io/)
+[![Pydantic](https://img.shields.io/badge/Pydantic-Data%20Validation-E92063?logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
+[![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)
+[![AWS ECS](https://img.shields.io/badge/AWS%20ECS-Deployment-FF9900?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/ecs/)
+[![AWS Fargate](https://img.shields.io/badge/AWS%20Fargate-Serverless-FF9900?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/fargate/)
+[![AWS ECR](https://img.shields.io/badge/AWS%20ECR-Registry-FF9900?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/ecr/)
+
+## Credits
+
+- FastAPI: https://fastapi.tiangolo.com/
+- LangChain: https://www.langchain.com/
+- FAISS: https://github.com/facebookresearch/faiss
+- PyMuPDF: https://pymupdf.readthedocs.io/
+- Pydantic: https://docs.pydantic.dev/
+- Uvicorn: https://www.uvicorn.org/
+- Docker: https://www.docker.com/
+- GitHub Actions: https://github.com/features/actions
+- AWS ECS/Fargate/ECR: https://aws.amazon.com/
+
 ## Requirements
 
 - Python 3.10+
