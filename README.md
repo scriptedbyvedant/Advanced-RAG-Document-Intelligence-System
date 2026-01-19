@@ -1,6 +1,14 @@
 # Advanced RAG Document Intelligence System
 
-Production-grade document intelligence API for analysis, comparison, and conversational retrieval over uploaded documents. Built on FastAPI with modular ingestion, analysis, and RAG pipelines and a UI served from the same app.
+An industry-grade portal for document analysis, comparison, and conversational RAG. It turns raw PDFs into structured intelligence, compares revisions with precision, and powers chat over single or multi-document corpora. Built for real deployments with FastAPI, modular pipelines, and cloud-ready ops.
+
+## Highlights
+
+- End-to-end document intelligence: analyze, compare, chat, and trace sources.
+- Sessionized indexing with FAISS for fast, persistent retrieval.
+- Robust parsing with LLM + schema enforcement for reliable outputs.
+- Production workflows: CI/CD, AWS ECS/Fargate, and secrets management.
+- Designed to be extended: new prompts, providers, and endpoints plug in cleanly.
 
 ## Why this exists
 
@@ -9,12 +17,26 @@ Organizations need to extract metadata, compare document versions, and query cor
 - PDF comparison with structured output.
 - Session-based conversational RAG with FAISS indexing.
 
-## Capabilities
+## What you can do
 
 - Analyze PDFs into structured metadata using LLM + parsing.
 - Compare two PDFs and return a tabular diff summary.
 - Build and query a per-session FAISS index for multi-file Q&A.
 - Serve a UI from `templates/` and `static/`.
+
+## What makes it different
+
+- Real-world pipelines that map to enterprise document workflows.
+- Strong separation of concerns (ingestion, analysis, compare, chat).
+- Clear extensibility with documented architecture, HLD/LLD, and diagrams.
+- Ready for scale with sessionized storage and persistent indices.
+
+## Use cases
+
+- Contract analysis and clause extraction.
+- Policy and compliance review.
+- Version comparison for audits or change tracking.
+- Knowledge discovery across internal documents.
 
 ## Architecture at a glance
 
@@ -47,6 +69,13 @@ uvicorn api.main:app --host 0.0.0.0 --port 8080 --reload
 ```
 
 Open the UI at `http://localhost:8080`.
+
+## Typical flow
+
+1) Upload PDFs.
+2) Analyze or compare documents.
+3) Build a chat index and ask questions.
+4) Use structured responses to drive decisions.
 
 ## Configuration
 
