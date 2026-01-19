@@ -28,6 +28,11 @@ Detailed docs:
 - `docs/OVERVIEW.md`
 - `docs/API.md`
 - `docs/ARCHITECTURE.md`
+- `docs/HLD.md`
+- `docs/LLD.md`
+- `docs/PROJECT_REPORT.md`
+- `docs/USER_GUIDE.md`
+- `docs/DEVELOPER_GUIDE.md`
 - `docs/DEPLOYMENT.md`
 
 ## Quick start (local)
@@ -92,5 +97,4 @@ utils/                File and model utilities
 
 ## License
 
-Internal use unless specified otherwise.
-
+Apache License 2.0. See `LICENSE`.
